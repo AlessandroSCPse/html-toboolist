@@ -9,6 +9,24 @@
 body {
     font-family: sans-serif;
 }
+.btn {
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    padding: 7px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-blue {
+    background-color: #46adf1;
+    border-color: #46adf1;
+    color: white;
+}
+.btn-white {
+    background-color: white;
+    color: #cfd3d8;
+    border-color: #cfd3d8;
+}
 
 /* Header */
 header {
@@ -30,7 +48,15 @@ main {
     padding-bottom: 20px;
 }
 .main-container {
-    background-color: lightblue;
+    background-color: white;
     width: 65%;
     margin: auto;
+    border-radius: 5px;
+}
+.buttons {
+    padding: 10px 30px;
+    border-bottom: 1px solid #f5f8f9;
+}
+.todo-list {
+    padding: 10px 30px;
 }
