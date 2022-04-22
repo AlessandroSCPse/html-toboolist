@@ -1,5 +1,36 @@
+/* RESET */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* COMMON */
+body {
+    font-family: sans-serif;
+}
+
+/* Header */
+header {
+    padding: 10px 25px;
+}
+#logo {
+    vertical-align: middle;
+}
+#brand {
+    font-size: 40px;
+    font-weight: 800;
+    vertical-align: middle;
+}
+
+/* Main */
+main {
+    background-color: #f5f8f9;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.main-container {
+    background-color: lightblue;
+    width: 65%;
+    margin: auto;
 }
